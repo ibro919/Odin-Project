@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project: Sign-up Form</title>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="content-left">
+     <div class="odin"><span>ODIN</span></div>
+     <p class="footer">Photo by <a href="https://unsplash.com/@haliewestphoto" target="_blank">Hali West</a> on <a target="_blank" href="https://unsplash.com">Unsplash</a></p>
+    </div>
+    <div class="content-right">
+      <div class="upper-right">
+        <p>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams.
+        </p>
+        <p>Sign up <em>now</em> to get started.</p>
+        <p>You <em>know </em>you want to</p>
+      </div>
+      <div class="lower-right">
+        <h2>Let's do this!</h2>
+        <form action="https://httpbin.org/" method="post" id=" biodata">
+       <div class="group-flex">
+        <div class="in_flex"> <label for="fname">FIRST NAME</label>
+        <input type="text" name="fname" id="fname" placeholder="THOR">
+       </div>
+       <div class="in_flex"> <label for="lname">LAST NAME</label>
+        <input type="text" name="lname" id="lname" placeholder="ODINSON">
+       </div>
+      </div>
+       <div class="group-flex">
+        <div class="in_flex"> <label for="email">EMAIL</label>
+        <input type="email" name="email" id="email" required placeholder="todinson@ragnarock.com">
+       </div>
+       <div class="in_flex"> <label for="telephone">PHONE NUMBER</label>
+        <input type="tel" name="telephone" id="telephone" required placeholder="12345678">
+       </div>
+      </div>
+       <div class="group-flex">
+        <div class="in_flex"> <label for="pswd">PASSWORD</label>
+        <input type="password" name="pswd" id="pswd" required>
+       </div>
+       <div class="in_flex"> <label for="telephone">CONFIRM PASSWORD</label>
+        <input type="pswd" name="pswd" id="pswd" required>
+       </div>
+      </div>
+      <button type="submit">Create Account</button>
+   </form>
+   </div>
+   <p>Alreay have an account? Log in</p>
+  </body>
+</html>
